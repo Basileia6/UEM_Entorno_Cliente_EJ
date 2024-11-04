@@ -1,6 +1,6 @@
 function pintarpiramide(){
-    let num = document.getElementById("numero");
-    for (i=1;i<=7;i++){
+    let num = document.getElementById("numero").value;
+    for (i=1;i<=num;i++){
         let linea="";
         for(j=1;j<=i;j++){
             linea+="*";
